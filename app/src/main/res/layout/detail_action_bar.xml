@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@drawable/gradient_layout"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/custom_ActionBar_ImageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="@dimen/_13sdp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:tint="@color/black" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:alpha="0.4"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|left"
+        android:padding="@dimen/_2sdp"
+        android:text="@string/countryDetail"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

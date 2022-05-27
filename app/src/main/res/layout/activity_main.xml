@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/main_action_bar"
+        android:id="@+id/main_action_bar"></include>
+
+
+    <ProgressBar
+        android:id="@+id/loading_view"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/main_action_bar"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/countryListRecylerView"
+        android:layout_width="match_parent"
+        android:layout_below="@id/loading_view"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:id="@+id/try_Again_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Problem Try Again!!"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:drawableLeft="@drawable/ic_baseline_signal_wifi_off_24"
+        android:padding="@dimen/_10sdp"
+        android:alpha="0.8"
+        android:textSize="@dimen/_10sdp"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_dark">
+
+    </Button>
+
+</RelativeLayout>

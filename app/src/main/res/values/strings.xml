@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ScaniaProjectTask</string>
+    <string name="countryDetail">Country Detail</string>
+    <string name="Scania">Scania</string>
+    <string name="let_s_start">let\'s Start</string>
+    <string name="About_Scania">Scania is a world leading provider of transport solutions with 54,000 employees in more than 100 countries. Together with our partners and customers we are driving the shift towards a sustainable transport system.
+
+</string>
+    <string name="country_name">Country Name</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="islamabd">Islamabd</string>
+    <string name="letter_country_code">letter country Code</string>
+    <string name="pk">PK</string>
+    <string name="asia">Asia</string>
+    <string name="region">Region</string>
+    <string name="scania_country_api_task">Scania Country API Task</string>
+
+</resources>
